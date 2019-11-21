@@ -9,18 +9,18 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-        gitun: 'No username',
+            gitun: 'No username',
             infoclean: '',
-                info: '',
-                    formData: {
-            username: '',
+            info: '',
+            formData: {
+                username: '',
             },
-        repitems: null,
+            repitems: null,
             staritems: null,
-                replanguagecount: { },
-        keywords: null
+            replanguagecount: {},
+            keywords: null
 
-    }
+        }
         this.handleUserFormSubmit = this.handleUserFormSubmit.bind(this);
         this.handleFormChange = this.handleFormChange.bind(this);
     }

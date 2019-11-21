@@ -8,12 +8,10 @@ const imgStye = {
 const ProfileDetails = (props) => {
     return (
         <div>
-            <div>
-                {props.infoclean.avatar_url ?
-                    <img src={props.infoclean.avatar_url}
-                        alt="Profile"
-                        style={imgStye} /> : null}
+            <div className='App-header'>
+                <h2>d3ia dashboard</h2>
             </div>
+            
             <div>
                 {props.infoclean.name ? <div><p>Name:</p><p>{props.infoclean.name}</p></div> : null}
             </div>
