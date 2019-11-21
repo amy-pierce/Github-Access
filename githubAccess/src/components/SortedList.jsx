@@ -1,5 +1,7 @@
 import React from 'react';
 import Moment from 'react-moment';
+import BarChart from './BarChart';
+
 const SortedList = (props) => {
     if (props.repitems) {
         return (
@@ -19,6 +21,7 @@ const SortedList = (props) => {
                         </div>
                     </li>
                 )}
+                
             </ul>
         )
     } else { return null; }
