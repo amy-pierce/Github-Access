@@ -7,6 +7,10 @@ class BarChart extends Component {
         super(props)
         this.createBarChart = this.createBarChart.bind(this)
     }
+
+
+
+
     componentDidMount() {
         this.createBarChart()
     }
@@ -19,6 +23,8 @@ class BarChart extends Component {
         const yScale = scaleLinear()
             .domain([0, dataMax])
             .range([0, this.props.size[1]])
+
+            
         select(node)
             .selectAll('rect')
             .data(this.props.data)
@@ -34,16 +40,21 @@ class BarChart extends Component {
         select(node)
             .selectAll('rect')
             .data(this.props.data)
-            .style('fill', '#fe9922')
+            .style('fill', '#71BC78')
             .attr('x', (d, i) => i * 25)
             .attr('y', d => this.props.size[1]- yScale(d))
             .attr('height', d => yScale(d))
             .attr('width', 25)
+            
     }
     render() {
         return <svg ref={node => this.node = node}
             width={500} height={500}>
         </svg>
+
+
+
+
     }
 }
 export default BarChart
