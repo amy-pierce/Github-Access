@@ -3,8 +3,12 @@ import Moment from 'react-moment';
 
 import { Panel } from 'react-bootstrap';
 import { Row, Col } from 'react-bootstrap';
+import PieChart from './PieChart';
+
 
 const SortedList = (props) => {
+
+    
   if (props.repitems) {
     return (
         <div>
@@ -14,7 +18,10 @@ const SortedList = (props) => {
                         <Row className="show-grid" >
                       <Col xs={52} md={9}>
                         <Panel.Title componentClass="h1">
-                        <a href={repitem.html_url} target="_blank">{index + 1}) {repitem.name}</a>
+                                    <a href={repitem.html_url} target="_blank">{index + 1}) {repitem.name} </a>
+                                
+                                      
+                                    
                         </Panel.Title>
                       </Col>
                       <Col xs={12} md={3}>
