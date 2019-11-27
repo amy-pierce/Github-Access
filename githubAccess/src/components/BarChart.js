@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+
+
+/*import React, { Component } from 'react';
 import { scaleLinear } from 'd3-scale';
 import { max } from 'd3-array';
 import { select } from 'd3-selection';
@@ -57,4 +59,22 @@ class BarChart extends Component {
 
     }
 }
-export default BarChart
+export default BarChart*/
+
+
+import React from 'react';
+import Plot from 'react-plotly.js';
+
+const BarChart = (props) => {
+        return (
+            <Plot
+                data={[
+                 
+                    { type: 'bar', x: props.repoNames, y: props.repoSize, marker: { color: '#D0F0C0' }},
+                ]}
+                layout={{ width: 500, height: 240, title: props.label }}
+            />
+        );
+    
+}
+export default BarChart;
