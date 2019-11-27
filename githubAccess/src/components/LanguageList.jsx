@@ -1,7 +1,7 @@
 import React from 'react';
-import BarChart from './BarChart';
+import PieChart from './PieChart';
 let x = ''
-let langs = []
+let langs = '';
 const LanguageList = (props) => {
     if (props.langslist) {
         {
@@ -9,23 +9,29 @@ const LanguageList = (props) => {
                 (eachitem.count)).reduce((pv, cv) => pv + cv, 0)
         }
         return (
-            <div>
+            
                 <div>
                     {
                         Object.entries(props.langslist).map(([key, eachitem]) =>
-                            <div>
+                            
                                 <div key={key}>
                                     {eachitem.lang} - {Math.round(100 * eachitem.count / totalcount)}%
-              </div>
-                                <div>{console.log(x = x + eachitem.count + ',')}</div></div>)}
-                </div>
-                {console.log(x)}
+             
+                                {console.log(x = x + eachitem.count + ',')}
+                        
+                            { console.log(langs = langs + eachitem.lang + ',') }
+
+                </div>)}
+                
                 <div className='App-header'>
                     <h2>Languages</h2>
                 </div>
                 <div>
-                    <BarChart data={x.split(',')} size={[500, 500]} />
-                    {x = ''}
+                    <div className="text-left">
+                        <PieChart repoSize={x.split(',')} repoNames={langs.split(',')} />
+                        </div>
+                        {x = ''}
+                        {langs = ''}
 
                 </div>
             </div>
