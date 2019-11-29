@@ -1,6 +1,6 @@
 # Github-Access
 ## CS3012- Amy Pierce -17330305
-- 
+
 ## Project Description
 This project had two aspects to it:
 - Integrate the GitHub Api to retreive and display data (Assignment 5)
