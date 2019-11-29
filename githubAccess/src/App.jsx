@@ -8,6 +8,8 @@ import LanguageList from './components/LanguageList.jsx';
 import RepoStats from './components/RepoStats.jsx';
 import Logo from './Logo.png';
 import lda from './lda';
+import scatter from './components/scatter';
+
 
 import { Grid } from 'react-bootstrap';
 
@@ -172,8 +174,10 @@ class App extends Component {
             <hr></hr>
             <Row className="show-grid">
               
-              <Col xs={12} md={8}>
-                <h4>Personal Top 10 Repositories</h4>
+                            <Col xs={12} md={8}>
+
+               <h4>Personal Top 10 Repositories</h4>
+
                 <SortedList repitems={this.state.repitems}/>
                             </Col>
                             <Col xs={12} md={4} className="text-center">
@@ -185,7 +189,8 @@ class App extends Component {
                                     langslist={this.state.replanguagecount} />
                             </Col>
             </Row>
-            <hr></hr>
+                        <hr></hr>
+                        
             <Row className="show-grid" className="text-center">
                             <div>
                                 <h4>{this.state.formData.username}</h4>
