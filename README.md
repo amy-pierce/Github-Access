@@ -8,17 +8,17 @@ This project had two aspects to it:
 - for this project I decided to build a web application using react.js. I have never used react before but  remeber from CS2013 last year that some groups used react to make web sites and apps and I thought this would be a good experience to branch out and try something new like react.
 - The graphs I drew use Plotly, which is based on d3.js libraries to create social graphs and represnet the data in different ways.
 ## Video Demo
+#
 ## Functionality
 - The application I have developed allows you to seach for an account on GitHub. 
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/search.png)
 - If a user with the logged username is found, some general information is shown about the user including 
--- the users contribution activity map
--- the users GitHub icon, bio, username and when theyr joined
--- amount of followers, amount of people they follow
--- amount of repos
+ - the users contribution activity map
+ - the users GitHub icon, bio, username and when theyr joined
+ - amount of followers, amount of people they follow
+ - amount of repos
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/general_info.png)
-- You can then see some information about that users profile
-![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/link_to_repo.png)
+##
 - The users top 10 repositories are displyed and if the repo name is clicked the user twill be brught to that repository on GitHub
 - Each panel for a repository tells us 
   * the name of the repo
@@ -27,8 +27,11 @@ This project had two aspects to it:
   * the main language used in it 
   * how many watchers it has
   * how many forks it has
+- If you click on teh repository name you will be brought to that repo on GitHub
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/repo_info.png)
+##
 - There are several social graphs shown displaying different things regarding that users information which is discussed more in the Graphs section below
+##
 - There is a link at the bottom of the page with a link to the ogged users full GitHub account
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/link_to_GitHub.png)
 ## Graphs
