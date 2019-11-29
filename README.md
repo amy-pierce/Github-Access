@@ -70,8 +70,9 @@ cd Github-Access
 ```
 - in the project directory run commands:
 ```
-npm i (to re-install node modules)
-npm start (to run)
+npm i 
+npm i react-bootstrap
+npm start 
 ```
 
 
