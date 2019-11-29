@@ -6,8 +6,21 @@ This project had two aspects to it:
 - Integrate the GitHub API to build visualisation of the data retreived
 ## My General Solution Idea
 - for this project I decided to build a web application using react.js. I have never used react before but  remeber from CS2013 last year that some groups used react to make web sites and apps and I thought this would be a good experience to branch out and try something new like react.
--The graphs I drew use Plotly, which is based on d3.js libraries to create social graphs and represnet the data in different ways.
+- The graphs I drew use Plotly, which is based on d3.js libraries to create social graphs and represnet the data in different ways.
 ## Video Demo
+## Functionality
+- The application I have developed allows you to seach for an account on GitHub. 
+- You can then see some information about that users profile
+- The users top 10 repositories are displyed and if the repo name is clicked the user twill be brught to that repository on GitHub
+- Each panel for a repository tells us 
+-- the name of the repo
+-- when it was started
+-- thhe description of the repo
+-- the main language used in it 
+-- how many watchers it has
+-- how many forks it has
+- There are several social graphs shown displaying different things regarding that users information which is discussed more in the Graphs section below
+- There is a link at the bottom of the page with a link to the ogged users full GitHub account
 ## Graphs
 ### BarChart
 #### Profile Details
