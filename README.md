@@ -21,12 +21,12 @@ This project had two aspects to it:
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/link_to_repo.png)
 - The users top 10 repositories are displyed and if the repo name is clicked the user twill be brught to that repository on GitHub
 - Each panel for a repository tells us 
--- the name of the repo
--- when it was started
--- thhe description of the repo
--- the main language used in it 
--- how many watchers it has
--- how many forks it has
+* the name of the repo
+* when it was started
+* thhe description of the repo
+* the main language used in it 
+* how many watchers it has
+* how many forks it has
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/repo_info.png)
 - There are several social graphs shown displaying different things regarding that users information which is discussed more in the Graphs section below
 - There is a link at the bottom of the page with a link to the ogged users full GitHub account
