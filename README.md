@@ -76,7 +76,6 @@ cd Github-Access
 - in the project directory run commands:
 ```
 npm i 
-npm i react-bootstrap
 npm start 
 ```
 The app will open and run on your browser on [http://localhost:3000/](http://localhost:3000/)
