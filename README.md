@@ -15,6 +15,8 @@ This project had two aspects to it:
 - [GitHub API](https://developer.github.com/apps/quickstart-guides/using-the-github-api-in-your-app/) - I used the GitHub API to retreive the data to display
 ## Video Demo
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/screen_record.gif)
+## Live Demo
+- I deployed my app on heroku and it a live version can be found [here](https://github-access-sweng.herokuapp.com/)
 ## Functionality
 - The application I have developed allows you to seach for an account on GitHub. 
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/search.png)
