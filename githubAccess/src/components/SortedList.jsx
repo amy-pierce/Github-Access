@@ -3,9 +3,11 @@ import Moment from 'react-moment';
 
 import { Panel } from 'react-bootstrap';
 import { Row, Col } from 'react-bootstrap';
-import PieChart from './PieChart';
+import Scatter from './scatter';
 
-
+let size = '';
+let repo = '';
+let total = 0;
 const SortedList = (props) => {
 
     
@@ -22,11 +24,13 @@ const SortedList = (props) => {
                                 
                                       
                                     
-                        </Panel.Title>
+                                </Panel.Title>
+                                
+
                       </Col>
                       <Col xs={12} md={3}>
                         Started <Moment from={new Date()}>{repitem.created_at}</Moment>
-                      </Col>
+                            </Col>
                     </Row>
 
                 </Panel.Heading>
@@ -36,13 +40,25 @@ const SortedList = (props) => {
                   </div>
                   <div>
                     <b>Language: </b>{repitem.language}<b>  Watchers: </b>{repitem.watchers_count}<b>  Forks: </b>{repitem.forks_count}
-                  </div>
-                </Panel.Body>
-              </Panel>
-          )}
+                            <div>   {console.log(size = size + repitem.size + ',')}</div>
+                            <div>   {console.log(repo = repo + repitem.name + ',')}</div>
+                            <div>   {console.log(total += repitem.size)}</div>
+
+                        </div>
+                    </Panel.Body>
+
+                </Panel>
+
+            )}
+            <Scatter repoSize={size.split(',')} repoNames={repo.split(',')} label={'Size of Repos'} total={total} />
+
+            {size = ''}
+            {repo = ''}
+            {total= 0}
         </div>
       )
   } else { return null;}
   };
 
 export default SortedList;
+//            <scatter repoSize={size.split(',')} repoNames={repo.split(',')} label={' Representation'} />

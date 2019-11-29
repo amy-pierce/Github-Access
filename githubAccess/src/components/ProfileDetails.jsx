@@ -1,6 +1,7 @@
 import React from 'react';
 import Moment from 'react-moment';
 import BarChart from './BarChart';
+import Scatter from './scatter';
 
 import { Row, Col } from 'react-bootstrap';
 
@@ -71,17 +72,18 @@ const ProfileDetails = (props) => {
             <Col xs={4} className="text-center">
               <div>
                 {props.infoclean.following ? <div><p><b>Following: </b></p><p>{props.infoclean.following}</p></div> : null }
-              </div>
+                    </div>
             </Col>
-            <Col xs={12} className="text-center">
-              <div>
-                {props.infoclean.login ? <div>{ <img src={"http://ghchart.rshah.org/"+props.infoclean.login} alt="Github chart" style={{ maxWidth: '100%', maxHeight: '100%'}}/>
-              }<br/><a href="https://ghchart.rshah.org/" target="_blank">Source for GitHub Chart API</a></div> : null }
-              </div>
+           
             </Col>
-            </Col>
-            <BarChart repoSize={[props.infoclean.public_repos, props.infoclean.followers, props.infoclean.following]} repoNames={['Repos', 'Followers', 'Following']} label={''} />
 
+            <BarChart repoSize={[props.infoclean.public_repos, props.infoclean.followers, props.infoclean.following]} repoNames={['Repos', 'Followers', 'Following']} label={'Graphical Representation'} />
+            <Col xs={12} className="text-center">
+                <div>
+                    {props.infoclean.login ? <div>{<img src={"http://ghchart.rshah.org/" + props.infoclean.login} alt="Github chart" style={{ maxWidth: '100%', maxHeight: '100%' }} />
+                    }<br /></div> : null}
+                </div>
+            </Col>
         </Row>
     )
 
