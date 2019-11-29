@@ -51,6 +51,7 @@ The next graph I made was a pie chart that represenst the percentage of each lan
 ### Scatter Plot
 #### Repo Size
 I decided to look into a more interesting information to display for my next graph. I looked at the size of the top 10 repositories for the user that was logged. I used a scatter ploy to display this information. It was trickier than the last two graphs to get the information. When originally passing the scatter plot the values to display on the scatter plot because the repositiores are obviously very big they had huge values and the markers were gigantic. I decided to make each markers size a percentage of the combined size of the reopositories to scale them down This worked better but still some repositores were so small in comparison to the large ones their markers are tiny and not really visible. The graph still works and shows a more interesting insight extracted from the data.
+![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/repo_size_scatter.png)
 
 ## Running it
 ### Requirements
