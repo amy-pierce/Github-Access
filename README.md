@@ -31,10 +31,11 @@ This project had two aspects to it:
 - If you click on teh repository name you will be brought to that repo on GitHub
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/repo_info.png)
 ##
-- There are several social graphs shown displaying different things regarding that users information which is discussed more in the Graphs section below
-##
 - There is a link at the bottom of the page with a link to the ogged users full GitHub account
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/link_to_GitHub.png)
+##
+- There are several social graphs shown displaying different things regarding that users information which is discussed more in the Graphs section below
+
 ## Graphs
 ### BarChart
 #### Profile Details
