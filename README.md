@@ -7,7 +7,12 @@ This project had two aspects to it:
 - Integrate the GitHub API to build visualisation of the data retreived (Assignment 6)
 ## My General Solution Idea
 - for this project I decided to build a web application using react.js. I have never used react before but  remeber from CS2013 last year that some groups used react to make web sites and apps and I thought this would be a good experience to branch out and try something new like react.
-- The graphs I drew use Plotly, which is based on d3.js libraries to create social graphs and represnet the data in different ways.
+### Resources
+- [d3.js](https://d3js.org/) - At the suggestion of the lecturer I began the visualisation aspect of this project by exploring the use of d3 libraries. After some exploration I found that d3 was quite difficult to use so I went looking for alternatives
+- [Plotly.js](https://plot.ly/javascript/) - I found that using plotly.js to create my graphs worked better. Plotly is built on top of d3 but I found it easier to implement
+- [React.js](https://reactjs.org/) - I used reactjs, which is a javascript library for building user interfaces to make my app
+- bootstrap.css - I played around with bootstrap adding tabs and panels to my homepage, however, this caused a few problems with displaying my data to I decided to go for a more simple UI approach.
+- [GitHub API](https://developer.github.com/apps/quickstart-guides/using-the-github-api-in-your-app/) - I used the GitHub API to retreive the data to display
 ## Video Demo
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/screen_record.gif)
 ## Functionality
