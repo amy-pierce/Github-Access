@@ -9,7 +9,7 @@ This project had two aspects to it:
 - for this project I decided to build a web application using react.js. I have never used react before but  remeber from CS2013 last year that some groups used react to make web sites and apps and I thought this would be a good experience to branch out and try something new like react.
 - The graphs I drew use Plotly, which is based on d3.js libraries to create social graphs and represnet the data in different ways.
 ## Video Demo
-#
+![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/screen_record.gif)
 ## Functionality
 - The application I have developed allows you to seach for an account on GitHub. 
 ![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/search.png)
