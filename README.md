@@ -11,7 +11,7 @@ This project had two aspects to it:
 ## Graphs
 ### Profile Details
 The first graph I made was a simple bar chart that once a user is searched and fond, displayed the amount of followers they have, how many people they follow and the amount of repositories they have.This was a simple enough graph to make and helped me get to grips with using plotly to represet different data.
-
+![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/first_graph.png)
 ### Languges
 The next graph I made was a pie chart that represenst the percentage of each language a user utilizes throughout their repositories. 
 ### Repo Size
