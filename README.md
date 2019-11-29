@@ -17,7 +17,7 @@ The first graph I made was a simple bar chart that once a user is searched and f
 ### PieChart
 #### Languges
 The next graph I made was a pie chart that represenst the percentage of each language a user utilizes throughout their repositories. This was more interesting information to work with than I used in the first graph but still not the most exciting possible.
-https://github.com/amy-pierce/Github-Access/blob/master/screenshots/language_piechart.png
+![alt text](https://github.com/amy-pierce/Github-Access/blob/master/screenshots/language_piechart.png)
 
 
 ### Scatter Plot
