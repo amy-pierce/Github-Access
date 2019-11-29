@@ -1,9 +1,10 @@
 # Github-Access
-CS3012
+## CS3012- Amy Pierce -17330305
+- 
 ## Project Description
 This project had two aspects to it:
-- Integrate the GitHub Api to retreive and display data 
-- Integrate the GitHub API to build visualisation of the data retreived
+- Integrate the GitHub Api to retreive and display data (Assignment 5)
+- Integrate the GitHub API to build visualisation of the data retreived (Assignment 6)
 ## My General Solution Idea
 - for this project I decided to build a web application using react.js. I have never used react before but  remeber from CS2013 last year that some groups used react to make web sites and apps and I thought this would be a good experience to branch out and try something new like react.
 - The graphs I drew use Plotly, which is based on d3.js libraries to create social graphs and represnet the data in different ways.
